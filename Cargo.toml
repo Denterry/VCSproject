@@ -1,0 +1,17 @@
+[package]
+name = "vcs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+clap =  { version = "4.*", features = ["derive"] }
+chrono = { version = "0.4", features = ["serde"] }
+
+serde = "1.0.117"
+serde_derive = "1.0.117"
+serde_json = "1.0.59"
+sha1 = "0.10.5"
+walkdir = "2"
